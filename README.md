@@ -11,6 +11,11 @@ npm install -g typescript # If you want to install the TypeScript globally.
 npm install -D typescript # If you want to install the TypeScript as a dev dependency.
 ```
 
+## Compiling a TypeScript program
+
+- To compile a TypeScript program, use the following command: `tsc <program_name.ts>`
+- After successful compilation, a new JavaScript file will be created with the same name as the TypeScript file name but with `.js` extension.
+
 > **Note:** To check whether TypeScript is installed or not, run the following command: `npm list -g`. This will list all the npm packages which is installed globally. Here, you can see the typescript package with the version. If here, there is no typescript, then you need to install the TypeScript again.
 
 ## Topics
