@@ -12,5 +12,5 @@ const addTwoNumbers = (num1: number, num2: number) => {
 };
 
 buttonElement.addEventListener('click', () => {
-  console.log(add(+inputElement1.value, +inputElement2.value));
+  console.log(addTwoNumbers(+inputElement1.value, +inputElement2.value));
 });
