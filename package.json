@@ -1,0 +1,27 @@
+{
+  "name": "typescript-playground",
+  "version": "1.0.0",
+  "description": "Welcome to my TypeScript Learning repository! This repository is dedicated to helping me learn and practice TypeScript. It contains a variety of exercises, tutorial codes, and mini-projects designed to enhance my understanding of TypeScript.",
+  "main": "index.js",
+  "keywords": [
+    "TypeScript",
+    "JavaScript"
+  ],
+  "author": "Rashmi Raj",
+  "license": "ISC",
+  "scripts": {
+    "prettier": "prettier --check \"**/*.{js,jsx,json,html,css,ts,tsx,yml,yaml}\"",
+    "prettier:write": "prettier --write \"**/*.{js,jsx,json,html,css,ts,tsx,yml,yaml}\" --ignore-unknown",
+    "prepare": "husky"
+  },
+  "lint-staged": {
+    "**/*.{js,jsx,ts,tsx,html,css,json}": [
+      "npm run prettier:write"
+    ]
+  },
+  "devDependencies": {
+    "husky": "^9.1.5",
+    "lint-staged": "^15.2.9",
+    "prettier": "^3.3.3"
+  }
+}
