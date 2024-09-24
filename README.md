@@ -72,6 +72,7 @@ npm install -D typescript # If you want to install the TypeScript as a dev depen
 - [NestJs Docs](https://docs.nestjs.com/)
 
 > **Note:** All JavaScript files of this directory are created by compiling the TypeScript files.
+
 > **Note:** Node compiler runs a file by considering all the contents of the file as JavaScript code. It doesn't care about the file extension. So, in case a file with `.ts` extension containing only JavaScript code then the Node compiler will execute the file without any issue but when the file contains some TypeScript specific code then the Node compiler will raise issue.
 
 ## Credits
