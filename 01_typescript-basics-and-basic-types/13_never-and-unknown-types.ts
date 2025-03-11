@@ -14,6 +14,19 @@ if (typeof userInput === 'string') {
   userName = userInput;
 }
 
+// If we consider val as any, then there is no need for the if block inside the function but If we consider
+// value as unknown then we have to apply type narrowing at the runtime.
+function process(val: unknown) {
+  if (
+    typeof val === 'object' &&
+    !!val &&
+    'log' in val &&
+    typeof val.log === 'function'
+  ) {
+    val.log();
+  }
+}
+
 // Never
 // Represents a value that never occurs, and is the most specific type because there is no set
 // smaller than the empty set.

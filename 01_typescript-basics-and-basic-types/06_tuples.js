@@ -5,7 +5,8 @@ var person = {
   role: [2, 'author'],
 };
 // push works here instead of having the array of size 2.
-// person.role.push('admin');
+person.role.push('admin');
+console.log(person.role);
 // person.role[1] = 10;
 // person.role = [0, 'admin', 'user'];
 var favoriteActivities;
