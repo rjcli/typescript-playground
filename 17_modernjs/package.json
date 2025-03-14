@@ -1,0 +1,14 @@
+{
+  "name": "09_modernjs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "Understanding TypeScript Course Setup",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rashmi Raj",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
