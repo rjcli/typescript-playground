@@ -23,6 +23,12 @@ npm install -D typescript # If you want to install the TypeScript as a dev depen
 
 > **Note:** To check whether TypeScript is installed or not, run the following command: `npm list -g`. This will list all the npm packages which is installed globally. Here, you can see the typescript package with the version. If here, there is no typescript, then you need to install the TypeScript again.
 
+## TypeScript Project Setup and Creating a `tsconfig.json` file
+To create a `tsconfig.json` file, run the following command:
+```bash
+tsc --init
+```
+
 ## Topics
 
 - Getting Started
@@ -45,35 +51,13 @@ npm install -D typescript # If you want to install the TypeScript as a dev depen
 - Select and Share a Place (including Google Maps)
 
 ## Resources
+- [TypeScript Docs](https://www.typescriptlang.org/docs/  )
+- [TypeScript Playground Online](https://www.typescriptlang.org/play)
+- [Vite](https://vite.dev/)
+- [`tsconfig.json`](https://www.typescriptlang.org/tsconfig/)
+- [DefinitelyTyped GitHub Repository](https://github.com/DefinitelyTyped/DefinitelyTyped)
+- [Classes in JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
 
-- [TypeScript Official Documentation](https://www.typescriptlang.org/docs/)
-- [TypeScript Everyday Types Documentation](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html)
-- [tsconfig Docs](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html)
-- [Compiler Config Docs](https://www.typescriptlang.org/docs/handbook/compiler-options.html)
-- [VS Code TS Debugging](https://code.visualstudio.com/docs/typescript/typescript-debugging)
-- [JavaScript Classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
-- [TypeScript Interfaces](https://www.typescriptlang.org/docs/handbook/2/objects.html)
-- [More on Advanced Types](https://www.typescriptlang.org/docs/handbook/2/types-from-types.html)
-- [JS Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
-- [Utility Type Docs](https://www.typescriptlang.org/docs/handbook/utility-types.html)
-- [More on Generics](https://www.typescriptlang.org/docs/handbook/generics.html)
-- [More on Property Descriptors](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperty)
-- [Decorators](https://www.typescriptlang.org/docs/handbook/decorators.html)
-- [HTML Drag and Drop API](https://developer.mozilla.org/en-US/docs/Web/API/HTML_Drag_and_Drop_API)
-- [JavaScript Modules (Overview)](https://medium.com/computed-comparisons/commonjs-vs-amd-vs-requirejs-vs-es6-modules-2e814b114a0b)
-- [More on ES Modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules)
-- [Official Webpack Docs](https://webpack.js.org/)
-- [Google Maps Pricing](https://cloud.google.com/maps-platform/pricing/sheet/)
-- [Google Geocoding API](https://developers.google.com/maps/documentation/geocoding/start)
-- [Google Maps JS SDK](https://developers.google.com/maps/documentation/javascript/tutorial)
-- [Official React Docs](https://reactjs.org/docs/getting-started.html)
-- [More React Resources](https://academind.com/learn/react/)
-- [create-react-app + TypeScript Docs](https://create-react-app.dev/docs/adding-typescript/)
-- [NestJs Docs](https://docs.nestjs.com/)
-
-> **Note:** All JavaScript files of this directory are created by compiling the TypeScript files.
-
-> **Note:** Node compiler runs a file by considering all the contents of the file as JavaScript code. It doesn't care about the file extension. So, in case a file with `.ts` extension containing only JavaScript code then the Node compiler will execute the file without any issue but when the file contains some TypeScript specific code then the Node compiler will raise issue.
 
 ## Credits
 
