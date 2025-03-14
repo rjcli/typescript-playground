@@ -1,0 +1,22 @@
+{
+  "name": "15_node-and-express-with-typescript",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon dist/app.js"
+  },
+  "keywords": [
+    "typescript",
+    "node"
+  ],
+  "author": "Rashmi Raj",
+  "license": "ISC",
+  "description": "Node with TypeScript",
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "nodemon": "^3.1.7"
+  },
+  "dependencies": {
+    "express": "^4.21.0"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "10_working-with-modules",
+  "version": "1.0.0",
+  "description": "A practice project of TypeScript",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server"
+  },
+  "keywords": [
+    "typescript"
+  ],
+  "author": "Rashmi Raj",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}

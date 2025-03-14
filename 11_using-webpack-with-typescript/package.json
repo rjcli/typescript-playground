@@ -1,0 +1,27 @@
+{
+  "name": "11_using-webpack-with-typescript",
+  "version": "1.0.0",
+  "description": "A practice project of TypeScript",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "lite-server",
+    "dev": "webpack-dev-server",
+    "build": "webpack",
+    "prod-build": "webpack --config webpack.config.prod.js"
+  },
+  "keywords": [
+    "typescript"
+  ],
+  "author": "Rashmi Raj",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "lite-server": "^2.5.4",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.6.2",
+    "webpack": "^5.94.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.1.0"
+  }
+}
